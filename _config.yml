@@ -1,9 +1,9 @@
 # Menu
 menu:
-  Home: /
-  Archives: /archives
-  Gallery: /gallery
-  About: /about
+  首页: /
+  归档: /archives
+  图集: /gallery
+  关于: /about
 rss: /atom.xml
 
 
@@ -15,18 +15,19 @@ brand: /images/hexo.svg
 # Because I put videos in multiple formats on the same path, I just labeled the path here.
 ocean:
   overlay: true
-  path: /images/ocean/
+  path: http://woolni.oss-cn-chengdu.aliyuncs.com/Blog/
   brand: /images/hexo-inverted.svg
+#/images/ocean/
 
 # Content
-excerpt_link: Read More...
-share_text: Share
-search_text: Search
+excerpt_link: 全文...
+share_text: 分享
+search_text: 搜索
 nav_text:
-  page_prev: Prev page
-  page_next: Next page
-  post_prev: Newer posts
-  post_next: Olde posts
+  page_prev: 上一页
+  page_next: 下一页
+  post_prev: 前一篇
+  post_next: 后一篇
 
 # Tags
 show_count: false
@@ -39,9 +40,9 @@ fancybox: true
 
 # Gitalk
 gitalk:
-  enable: false # true
-  clientID: # GitHub Application Client ID
-  clientSecret: # Client Secret
-  repo: # Repository name
-  owner: # GitHub ID
-  admin: # GitHub ID
+  enable: true # true
+  clientID: 2ea1b4c38637133e0c27 # GitHub Application Client ID
+  clientSecret: 753e3b899e5693ef86055cddb0e511508345eadc # Client Secret
+  repo: gitalk # Repository name
+  owner: lydsnm # GitHub ID
+  admin: lydsnm # GitHub ID
