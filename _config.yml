@@ -20,6 +20,7 @@ ocean:
 #/images/ocean/
 
 # Content
+
 excerpt_link: 全文...
 share_text: 分享
 search_text: 搜索
@@ -28,6 +29,15 @@ nav_text:
   page_next: 下一页
   post_prev: 前一篇
   post_next: 后一篇
+
+excerpt_link: Read More...
+
+# MIIT ICP/IP/DOMAIN
+beian: 
+  enable: false
+  number: 京ICP备17054916号-2
+  url: https://beian.miit.gov.cn/
+
 
 # Tags
 show_count: false
@@ -46,3 +56,16 @@ gitalk:
   repo: gitalk # Repository name
   owner: lydsnm # GitHub ID
   admin: lydsnm # GitHub ID
+
+# Valine
+valine:
+  enable: false # true
+  el: 'vcomments'
+  appId: 
+  appKey: 
+  notify: false
+  verify: true
+  avatar: 'mp'
+  pageSize: '10'
+  placeholder: '请输入...' 
+
