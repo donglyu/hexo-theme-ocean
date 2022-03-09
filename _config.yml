@@ -30,8 +30,6 @@ nav_text:
   post_prev: 前一篇
   post_next: 后一篇
 
-excerpt_link: Read More...
-
 # MIIT ICP/IP/DOMAIN
 beian: 
   enable: false
